@@ -112,6 +112,7 @@
 .icon-umbrella,
 .icon-trash,
 .icon-tag,
+.icon-tags,
 .icon-support,
 .icon-frame,
 .icon-size-fullscreen,
@@ -517,6 +518,9 @@
 }
 .icon-tag:before {
   content: "\e055";
+}
+.icon-tags:before {
+  content: "\e621";
 }
 .icon-support:before {
   content: "\e056";
