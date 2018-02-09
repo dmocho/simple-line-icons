@@ -122,6 +122,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &umbrella,
   &trash,
   &tag,
+  &tags,
   &support,
   &frame,
   &size-fullscreen,
@@ -634,6 +635,10 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e055";
 }
 
+.#{$simple-line-icon-prefix}tags:before {
+  content: "\e621";
+}
+
 .#{$simple-line-icon-prefix}support:before {
   content: "\e056";
 }
@@ -976,4 +981,4 @@ $simple-line-icon-prefix: "icon-" !default;
 
 .#{$simple-line-icon-prefix}social-steam:before {
   content: "\e620";
-}
+} 
